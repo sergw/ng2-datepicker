@@ -12,7 +12,7 @@ var config = {
   },
   map: {
     typescript: './node_modules/typescript/lib/typescript.js',
-    angular2: path.resolve('node_modules/angular2'),
+    angular2: path.resolve('node_modules/@angular'),
     rxjs: path.resolve('node_modules/rxjs')
   },
   paths: {
@@ -20,7 +20,7 @@ var config = {
     'moment': 'node_modules/moment/moment.js'
   },
   meta: {
-    'node_modules/angular2/*': { build: false },
+    'node_modules/@angular/*': { build: false },
     'node_modules/rxjs/*': { build: false },
     'moment': { 'format': 'global' }
   },
