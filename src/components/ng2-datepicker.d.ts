@@ -1,6 +1,6 @@
 /// <reference path="../../typings/tsd.d.ts" />
-import { ViewContainerRef, EventEmitter, AfterViewInit } from 'angular2/core';
-import { NgModel, ControlValueAccessor } from 'angular2/common';
+import { ViewContainerRef, EventEmitter, AfterViewInit } from '@angular/core';
+import { NgModel, ControlValueAccessor } from '@angular/common';
 export declare class DatePicker implements ControlValueAccessor, AfterViewInit {
     isOpened: boolean;
     dateValue: string;
