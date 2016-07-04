@@ -1,12 +1,10 @@
-/// <reference path="../../typings/tsd.d.ts" />
-
 import {Component, ViewContainerRef, Input, Output, EventEmitter, AfterViewInit} from '@angular/core';
 import {NgIf, NgFor, NgClass, NgModel, FORM_DIRECTIVES, ControlValueAccessor} from '@angular/common';
 import * as moment_ from 'moment';
 
 const moment: moment.MomentStatic = (<any>moment_)['default'] || moment_;
 
-interface CalendarDate {
+export interface CalendarDate {
   day: number;
   month: number;
   year: number;

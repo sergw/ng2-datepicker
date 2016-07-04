@@ -2,9 +2,11 @@
 **/*.js
 **/*.js.map
 !make.js
+!systemjs.config.js
 
 # dependencies
 /node_modules
+/typings
 
 # IDEs and editors
 /.idea
